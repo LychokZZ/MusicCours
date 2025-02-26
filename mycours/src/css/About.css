@@ -1,0 +1,77 @@
+.centrAbout{
+    display: flex;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    padding: 20px;
+}
+.coursedescription{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 350px;
+}
+.hcus{
+    display: flex;
+    padding: 0px 0px;
+}
+
+.buttonab{
+    background: var(--white-purp);
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--grey-base) ;
+    transition: transform .1s;
+    border:none; 
+    border-radius:10px; 
+    min-height:40px; 
+    min-width: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.buttonab:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.ify{
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+    margin: 0px 0px -20px;
+}
+.hedbout{
+    display: flex;
+    background: var(--grey-base);
+    border-radius: 20px;
+    color: var(--white-purp);
+    transition: transform .1s;
+    width: 32%;
+    height: 90%;
+    margin: 20px 0px 0px 0px;
+    padding: 3px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+.hedbout:hover{
+    opacity: 0.99;
+    transform: scale(1.02);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 24px;
+}
+.baseabout{
+    padding: 10px;
+    
+}
+.secondabout{
+    padding: 10px;
+}
+.About h1{
+    font-size: 25px;
+}
+.About p,ul{
+    font-size: 16px;
+}
+.imager{
+    overflow: hidden;
+  }

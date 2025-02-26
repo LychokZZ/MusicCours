@@ -1,0 +1,56 @@
+.bodys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Ivent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+
+}
+.Iventblock{
+    background-color: var(--grey-base);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between  ;
+    flex-direction: row-reverse;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+.Plans{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 40px 0px;
+    font-size: 40px;
+}
+.Elements{
+    background-color: var(--white);
+    color: var(--grey-base);
+    padding: 10px 30px 30px 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+.paper-clip{
+    position: absolute;
+    margin: -1.5% 28.4%;
+    min-width: 30px;
+    min-height: 30px;
+    color: #aeaeae;
+}
+.Data{
+    background-color: var(--white);
+    color: var(--grey-base);
+    padding: 5px;
+    border-radius: 5px;
+    max-height: 55px;
+}

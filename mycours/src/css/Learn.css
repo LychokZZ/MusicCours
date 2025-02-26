@@ -1,0 +1,252 @@
+
+.Avatar{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    color: var(--grey-base);
+    transition: transform .1s;
+    justify-content: end;
+    padding: 3px 0px;
+}
+.Avatar:hover{
+    color: #1f1f1f;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.struk{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.Num{
+    display: flex;
+    background-color: #1f1f1f;
+    color: var(--white-purp);
+    width: 300px;
+    justify-content: center;
+    font-size: small;
+    padding: 5px;
+   
+}
+.maines{
+    display: flex;
+}
+.rowes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.infocours{
+    display: flex;
+    background-color: var(--white);
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    
+}
+.topinf{
+    display: flex;
+    font-size: 13px;
+    background-color: var(--grey-base);
+    color: #d0d0d0;
+    width: 900px;
+    height: 65px;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+.indo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow:hidden
+}
+.selcc{
+    display: flex;
+
+    flex-direction: column;
+    height: 800px;
+    width: 1150px;
+    color: var(--white);
+}
+.selectcourse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--grey-base);
+    color: var(--white-purp);
+    width: 970px;
+    font-size: 30px;
+    border-radius: 22px 10px;
+    margin:  20px 40px;
+    padding: 15px 15px;
+}
+.selectcourses{
+    display: flex;
+    padding: 0px 50px;
+    margin-top: -10px;
+}
+.topic{
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+
+}
+.buttonSt{
+    display: flex;
+    background-color: #1f1f1f;
+    color: var(--white-purp);
+    border: none;
+    transition: transform .1s;
+    cursor: pointer;
+    width: 101%;
+    font-size: 13px;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.buttonSt:hover{
+    background-color: var(--grey-base);
+    transform: scale(1.01);
+}
+.Progres{
+    display: flex;
+    background: var(--white-purp);
+    width: 980px;
+    height: 200px;
+    border-radius: 50px 20px 50px 20px;
+    margin: 20px;
+}
+.opselect{
+    display: flex;
+    background-color: var(--white-purp);
+    flex-direction: column;
+    color: #303030;
+    width: 1080px;
+    margin: 20px;
+    border-radius: 50px 20px 50px 20px;
+}
+.pppr{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: var(--grey-base);
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px 0px 0px 0px;
+    height: 30px;
+    margin: -0.6% 28%;
+}
+.routeee{
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    background-color: var(--white-purp);
+    flex-direction: column;
+    width: 40px;
+    height: 183px;
+    border-radius: 10px;
+    margin: 1.4% 94.5%;
+}
+.buttonlen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-base);
+    color: var(--white-purp);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: transform .1s;
+    border:none; 
+    border-radius:10px; 
+    position: absolute;
+    font-size: 20px;
+    min-height:100px; 
+    min-width: 100px;
+    margin: 0% 58%;
+    margin-top: -150px;
+}
+.buttonlen:hover{
+    opacity: 0.99;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Progree{
+    width: 160px;
+    height: 160px;
+    margin: 21px 90px;
+    border-radius: 80px;
+}
+.Post{
+    display: flex;
+    background-color: #606060;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px 10px;
+    position: absolute;
+    margin: -150px 400px;
+    
+}
+.textbord{
+    margin-top: 0px;
+}
+.thess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-base);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 10px;
+    margin-top: -10px;
+
+}
+.Avatarss{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    color: #d0d0d0;
+    transition: transform .1s;
+    justify-content: end;
+    padding: 3px 0px;
+}
+.learnbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-base);
+    color: var(--white-purp)  ;
+    transition: transform .1s;
+    border:none; 
+    position: absolute;
+    border-radius: 10px; 
+    padding: 10px;
+    font-size: 15px;
+    min-height:20px; 
+    min-width: 100px;
+    margin: -40px 900px;
+}
+.learnbut:hover{
+    opacity: 0.99;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.buttonlens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-purp);
+    color: var(--grey-base);
+    border:none; 
+    border-radius:10px; 
+    position: absolute;
+    font-size: 20px;
+    min-height:80px; 
+    min-width: 80px;
+    margin: 3% 59%;
+    margin-top: -140px;
+}

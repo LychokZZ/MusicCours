@@ -1,0 +1,48 @@
+.test{
+    background-color: var(--white-purp);
+    width: 100%;
+    height: 800px;
+}
+.qblok{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #303030;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 70%;
+    height: 600px;
+    padding: 10px;
+    margin: 5% 15%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 14px;
+}
+.anwsblok{
+    width: 85%;
+    
+}
+.qwes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-purp);
+    padding: 10px;
+    border-radius: 15px;
+    width: 81%;
+    height: 20%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 14px;
+}
+.butq{
+    border: none;
+    background-color: var(--white-purp);
+    border-radius: 15px;
+    width: 400px;
+    height: 120px;
+    margin: 10px;
+    transition: transform .1s;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 14px;
+}
+.butq:hover{
+    transform: scale(1.05);
+}

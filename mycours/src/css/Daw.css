@@ -1,0 +1,359 @@
+
+.Piano{
+    padding: 15px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.but{
+    background-color: var(--white-purp);
+    width: 100px;
+    height: 40px;
+    border: solid 2px var(--white-purp);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+.but:active{
+    color: var(--grey-base);
+    background-color: rgb(119, 199, 237)  ;
+    transform: scale(1.04);
+}
+.Select{
+    padding: 20px;
+    margin: -20px 0px;
+    background-color: var(--grey-base);
+    width: 250px;
+    height: 800px;
+    color: #d0d0d0;
+}
+.Daw{
+    display: flex;
+    flex-direction: row;
+}
+.ball{
+    background-color: var(--white-purp);
+    border: solid 1px var(--grey-base);
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.drum {
+    width: 40px;
+    height: 30px;
+    appearance: none; 
+    transform: scale(1.1);
+    background-color: var(--white);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+ 
+  }
+.drum:checked {
+    background-color: #626262;
+  }
+.row{
+    display: flex;
+    grid-template-columns: repeat(16, 40px) ; 
+    grid-template-rows: repeat(4, 0px); 
+    margin: 10px;
+
+}
+.row div:nth-child(4n) .drum{
+    margin: 0px 20px 0px 10px;
+  }
+  
+.drumac{
+    background-color: var(--grey-base);
+    border-radius: 15px;
+    width: 1040px;
+    padding: 10px;
+}
+.overflow{
+    background-color: var(--white);
+    width: 100%;
+    height: 820px;
+
+}
+.flow{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.krut{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.formemd{
+    display: flex;
+    padding: 30px 22px;
+    
+}
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-base);
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    color: var(--white);
+    font-size: 14px;
+    transition: transform .1s;
+    margin: 110px 10px -100px -10px;
+}
+.names:hover{
+    transform: scale(1.1);
+}
+.metro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-purp);
+    width: 40px;
+    height: 40px;
+    border: solid 2px var(--white-purp);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+
+.iconMetr{
+    height: 30px;
+    width: 30px;
+
+}
+.endbut{
+    display: flex;
+    position: absolute;
+    margin: 0% 55% ;
+}
+.butr{
+    background-color: var(--white-purp);
+    width: 100px;
+    height: 40px;
+    border: solid 2px var(--white-purp);
+    border-radius: 10px;
+}
+.Choose{
+    display: flex;
+    flex-direction: column;
+    color: var(--white-purp);
+}
+.butchoos{
+    background-color: var(--white-purp);
+    border: none;
+    padding: 5px;
+    width: 56px;
+    height: 30px;
+    border-radius: 5px;
+    margin: -10px 3px;
+    transition: transform .1s;
+}
+.butchoos:hover{
+    transform: scale(1.15);
+}
+
+.backrou{
+    background-color: var(--white);
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lopotki{
+    position: absolute;
+    margin: 0px 0px;
+}
+.lipowka{
+    background-color: var(--grey-base);
+    width: 97%;
+    height: 75%;
+    border-radius: 10px;
+    margin: 0px 0px;
+}
+.pianos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px;
+    grid-template-columns: repeat(16, 40px) ; 
+    grid-template-rows: repeat(4, 0px); 
+}
+.pianos div:nth-child(4n) .piano{
+    margin: 0px 10px 1.2px 1.2px;
+}
+
+.pianos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px;
+    grid-template-columns: repeat(16, 40px) ; 
+    grid-template-rows: repeat(4, 0px); 
+}
+.pianos2 div:nth-child(4n) .piano2{
+    margin: 0px 1px 0.7px 0.7px;
+}
+.pianos2 div:nth-child(8n) .piano2{
+    margin: 0px 10px 0.7px 0.7px;
+}
+
+.piano{
+    width: 55px;
+    height: 10px;
+    border: solid 1px var(--grey-base);
+    background-color: var(--white);
+    appearance: none; 
+    margin: 2% ;
+    cursor: pointer;
+}
+.piano:checked {
+    background-color: #626262;
+}
+
+.piano2{
+    width: 27.5px;
+    height: 10px;
+    border: solid 1px var(--grey-base);
+    background-color: var(--white);
+    appearance: none; 
+    margin: 2% ;
+    cursor: pointer;
+}
+.piano2:checked {
+    background-color: #626262;
+}
+.opas{
+    margin:30px -100px 0px 0px;
+}
+.click{
+    position: absolute;
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+.click:hover{
+    transform: scale(1.1);
+}
+.barron{
+    position: absolute;
+    margin: 63px 380px;
+} 
+.melodydrum{
+    margin: -30px 0px;
+}
+.butSw{
+    background-color: var(--white-purp);
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform .1s;
+    cursor: pointer;
+}
+.butSw:hover{
+    transform: scale(1.07);
+}
+/*s.divbutSw{
+ witch 1/8
+}*/
+.secbur{
+    background-color: var(--grey-base);
+    color: #d0d0d0;
+    width: 40px;
+    border:none;
+    border-radius: 5px;
+    margin: -1px 1px;
+    transition: transform .1s;
+    cursor: pointer;
+}
+.secbur:hover{
+    transform: scale(1.05);
+}
+.blocknot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-purp);
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 1px 10px;
+}
+.callbut{
+    margin: -10px 0px 13px;
+}
+.uppiano{
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+    margin: 1px 35px;
+}
+.lopotki{
+    display: flex;
+    align-items: center;
+    background-color: #626262;
+    width: 70px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 88px 30px;
+    padding: 10px;
+}
+.Pianosis{
+    flex-direction: column;
+    margin: -2px;
+}
+.Pianos{
+    width: 55px;    
+    height: 10px;
+    background-color: var(--white);
+    appearance: none; 
+    margin: 0px 0px;
+    cursor: pointer;
+    border: none; 
+    outline: none;
+}
+.Pianos:checked {
+    background-color: hsl(0, 100%, 85%);
+}
+.Pianosis:nth-child(2) .Pianos,
+.Pianosis:nth-child(4) .Pianos,
+.Pianosis:nth-child(6) .Pianos,
+.Pianosis:nth-child(9) .Pianos,
+.Pianosis:nth-child(11) .Pianos {
+    background-color: var(--grey-base);
+}
+.Pianosis:nth-child(2) .Pianos:checked,
+.Pianosis:nth-child(4) .Pianos:checked,
+.Pianosis:nth-child(6) .Pianos:checked,
+.Pianosis:nth-child(9) .Pianos:checked,
+.Pianosis:nth-child(11) .Pianos:checked {
+    background-color: hsl(0, 100%, 85%);
+}
+.instruments{
+    display: flex;
+    justify-content: center;
+}
+.Homes{
+    color: #d1bff1   ;
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+.Homes:hover{
+    transform: scale(1.3);
+}

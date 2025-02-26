@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+.main{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.bordered{
+    display: flex;
+    background: linear-gradient(135deg, rgb(35, 35, 35), rgb(50, 50, 50));
+    border-radius: 25px;
+    color: var(--white-purp);
+    transition: transform .1s;
+    width: 99%;
+    height: 95%;
+    margin: 0px 0px 0px 0px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    margin: -120px -70px;
+}
+.rozmet{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.pram{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    width: 400px;
+    transform: rotate(180deg);
+    margin: 0px 0px;
+    
+}
+.Pone{
+    border: none;
+    width: 100px;
+	height: 300px;
+	background: var(--white-purp);
+    transition: transform .1s;
+    border-radius: 5px;
+}
+.Psec{
+    border: none;
+    width: 100px;
+	height: 200px;
+	background: var(--white-purp);
+    border-radius: 5px;
+    transition: transform .1s;
+}
+.Pthr{
+    border: none;
+    width: 100px;
+	height: 100px;
+	background: var(--white-purp);
+    border-radius: 5px;
+    transition: transform .1s;
+}
+.Pone:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(1.06);
+    box-shadow: rgba(172, 172, 144, 0.05) 0px 8px 24px;
+}
+.Psec:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(1.06);
+    box-shadow: rgba(172, 172, 144, 0.15) 0px 8px 24px;
+}
+.Pthr:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(1.06);
+    box-shadow: rgba(172, 172, 144, 0.15) 0px 8px 24px;
+}
+.liner{
+    position: absolute;
+    width: 10px;
+	height: 500px;
+	background: var(--white-purp);
+    border-radius: 5px;
+    transform: rotate(90deg);
+    margin: 70px 990px;
+    
+}
+
+.LOW{
+    display: flex;
+    color: var(--grey-base);
+    font-size: 33px;
+    border: none;
+    margin: 0px 60px 60px 0px;
+    transform: rotate(90deg);
+}
+.STANDART{
+    display: flex;
+    color: var(--grey-base);
+    border: none;
+    font-size: 33px;
+    margin: 0px 60px 160px 0px;
+    transform: rotate(90deg);
+}
+.PRIMERY{
+    display: flex;
+    color: var(--grey-base);
+    border: none;
+    font-size: 45px;
+    margin: 0px 50px 320px 0px;
+    transform: rotate(90deg);
+}
+
+.selectedcontent{
+    display: flex;
+    background: var(--white-purp);
+    color: var(--grey-base);
+    padding: 20px;
+    width: 550px;
+    height: 280px;
+    border-radius: 50px 10px 50px 10px;
+    margin: -10px -200px;
+}
+.suup{
+    display: flex;
+    position: absolute;
+    margin: 0% 50% 50%;
+}
+.sup{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(177, 181, 238);
+}
+.ultext{
+    font-size: 20px;
+}
+.tuple{
+    background: var(--grey-base);
+    border-radius: 15px;
+    width: 150px;
+    padding: 10px;
+    color: var(--white-purp);
+}
+.zapus{
+    background: linear-gradient(90deg, #90819a 0%, #31356e 100%);
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    transition: transform .1s;
+    border:none; 
+    border-radius:10px; 
+    min-height:40px; 
+    min-width: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0px -120px;
+}
+.zapus:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    background: linear-gradient(90deg, #9687a1 0%, #363a78 100%);
+}
+
