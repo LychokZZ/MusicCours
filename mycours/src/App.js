@@ -1,5 +1,5 @@
-import React, { createContext } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
 import RegF from "./Pages/RegF";
 import LogF from "./Pages/LogF";
@@ -40,6 +40,9 @@ class App extends React.Component{
                 </div>
                 <div>
                     <Switch>
+                        <Route path="/">
+                            <Home />
+                        </Route>
                         <Route path="/Home">
                             <Home />
                         </Route>
